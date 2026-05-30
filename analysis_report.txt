@@ -1,0 +1,54 @@
+Title: דה קוקי
+Scripts: ['./js/index.js']
+Links: ['https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik:wght@400;600;700;900&display=swap']
+IDs (59): animateTab, cancelBtn, createTab, customBtn, customCreateBtn, customMaxLines, customMaxLinesVal, customMaxWords, customMaxWordsVal, customMinWords, customMinWordsVal, customSafeZone, customSafeZoneVal, customSettings, customSettingsBody, customSmartBreaks, deleteAllBtn, exportSrtBtn, fontPicker, fontPickerClear, fontPickerHeader, fontPickerHeaderName, fontPickerHeaderPreview, fontPickerList, fontPickerSearch, generateBtn, importSrtBtn, langPicker, langPickerClear, langPickerHeader, langPickerHeaderName, langPickerList, langPickerSearch, layerModeToggle, mainScreen, positionToggle, precompToggle, previewModalApprove, previewModalCancel, previewModalClose, previewModalCount, previewModalList, previewModalOverlay, previewModalTitle, previewToggle, progressBar, progressContainer, refreshStylesBtn, removePunctuationBtn, resetStyleBtn, selectAllBtn, sentenceBtn, smartExtendedBtn, smartWordsBtn, status, styleStatus, stylesGrid, stylesTab, wordPairsBtn
+
+Controls:
+{"tag": "button", "id": null, "class": "tab-btn active", "type": null, "name": null, "value": null, "text": "Create Subtitles", "data": {"data-tab": "create"}}
+{"tag": "button", "id": null, "class": "tab-btn", "type": null, "name": null, "value": null, "text": "Styles", "data": {"data-tab": "styles"}}
+{"tag": "button", "id": null, "class": "tab-btn", "type": null, "name": null, "value": null, "text": "Animate", "data": {"data-tab": "animate"}}
+{"tag": "input", "id": "layerModeToggle", "class": "", "type": "checkbox", "name": null, "value": null, "text": "", "data": {}}
+{"tag": "input", "id": "precompToggle", "class": "", "type": "checkbox", "name": null, "value": null, "text": "", "data": {}}
+{"tag": "input", "id": "previewToggle", "class": "", "type": "checkbox", "name": null, "value": null, "text": "", "data": {}}
+{"tag": "button", "id": "fontPickerClear", "class": "font-picker-clear", "type": "button", "name": null, "value": null, "text": "×", "data": {}}
+{"tag": "input", "id": "fontPickerSearch", "class": "font-picker-search", "type": "text", "name": null, "value": null, "text": "", "data": {}}
+{"tag": "button", "id": "langPickerClear", "class": "font-picker-clear", "type": "button", "name": null, "value": null, "text": "×", "data": {}}
+{"tag": "input", "id": "langPickerSearch", "class": "font-picker-search", "type": "text", "name": null, "value": null, "text": "", "data": {}}
+{"tag": "button", "id": null, "class": "position-toggle-btn", "type": "button", "name": null, "value": null, "text": "Center", "data": {"data-position": "center"}}
+{"tag": "button", "id": null, "class": "position-toggle-btn active", "type": "button", "name": null, "value": null, "text": "Below", "data": {"data-position": "below"}}
+{"tag": "button", "id": null, "class": "custom-preset-btn", "type": null, "name": null, "value": null, "text": "Single", "data": {"data-preset": "single"}}
+{"tag": "button", "id": null, "class": "custom-preset-btn active", "type": null, "name": null, "value": null, "text": "Short", "data": {"data-preset": "short"}}
+{"tag": "button", "id": null, "class": "custom-preset-btn", "type": null, "name": null, "value": null, "text": "Medium", "data": {"data-preset": "medium"}}
+{"tag": "button", "id": null, "class": "custom-preset-btn", "type": null, "name": null, "value": null, "text": "Long", "data": {"data-preset": "long"}}
+{"tag": "button", "id": null, "class": "custom-preset-btn", "type": null, "name": null, "value": null, "text": "Full", "data": {"data-preset": "full"}}
+{"tag": "input", "id": "customMinWords", "class": "custom-slider", "type": "range", "name": null, "value": "1", "text": "", "data": {}}
+{"tag": "input", "id": "customMaxWords", "class": "custom-slider", "type": "range", "name": null, "value": "4", "text": "", "data": {}}
+{"tag": "input", "id": "customMaxLines", "class": "custom-slider", "type": "range", "name": null, "value": "1", "text": "", "data": {}}
+{"tag": "input", "id": "customSafeZone", "class": "custom-slider", "type": "range", "name": null, "value": "80", "text": "", "data": {}}
+{"tag": "button", "id": null, "class": "custom-break-btn active", "type": null, "name": null, "value": null, "text": "Tight", "data": {"data-sensitivity": "high"}}
+{"tag": "button", "id": null, "class": "custom-break-btn", "type": null, "name": null, "value": null, "text": "Natural", "data": {"data-sensitivity": "medium"}}
+{"tag": "button", "id": null, "class": "custom-break-btn", "type": null, "name": null, "value": null, "text": "Loose", "data": {"data-sensitivity": "low"}}
+{"tag": "button", "id": null, "class": "custom-break-btn", "type": null, "name": null, "value": null, "text": "Off", "data": {"data-sensitivity": "off"}}
+{"tag": "input", "id": "customSmartBreaks", "class": "", "type": "checkbox", "name": null, "value": null, "text": "", "data": {}}
+{"tag": "button", "id": "customCreateBtn", "class": "custom-create-btn", "type": null, "name": null, "value": null, "text": "Create Custom Subtitles", "data": {}}
+{"tag": "button", "id": "selectAllBtn", "class": "tool-btn tool-select", "type": null, "name": null, "value": null, "text": "Select All", "data": {}}
+{"tag": "button", "id": "removePunctuationBtn", "class": "tool-btn tool-punctuation", "type": null, "name": null, "value": null, "text": "Punctuation", "data": {}}
+{"tag": "button", "id": "deleteAllBtn", "class": "tool-btn tool-delete", "type": null, "name": null, "value": null, "text": "Delete All", "data": {}}
+{"tag": "button", "id": "importSrtBtn", "class": "srt-btn srt-import", "type": null, "name": null, "value": null, "text": "Import SRT", "data": {}}
+{"tag": "button", "id": "exportSrtBtn", "class": "srt-btn srt-export", "type": null, "name": null, "value": null, "text": "Export SRT", "data": {}}
+{"tag": "button", "id": "cancelBtn", "class": "cancel-btn", "type": "button", "name": null, "value": null, "text": "", "data": {}}
+{"tag": "button", "id": "previewModalClose", "class": "preview-modal-close", "type": "button", "name": null, "value": null, "text": "×", "data": {}}
+{"tag": "button", "id": "previewModalCancel", "class": "preview-modal-btn preview-modal-cancel", "type": "button", "name": null, "value": null, "text": "Cancel", "data": {}}
+{"tag": "button", "id": "previewModalApprove", "class": "preview-modal-btn preview-modal-approve", "type": "button", "name": null, "value": null, "text": "✓ Create", "data": {}}
+{"tag": "button", "id": "refreshStylesBtn", "class": "refresh-styles-btn", "type": null, "name": null, "value": null, "text": "", "data": {}}
+{"tag": "button", "id": "resetStyleBtn", "class": "reset-style-btn", "type": null, "name": null, "value": null, "text": "Reset Style", "data": {}}
+
+Tabs:
+{"tag": "button", "id": null, "class": "tab-btn active", "text": "Create Subtitles", "data": {"data-tab": "create"}}
+{"tag": "button", "id": null, "class": "tab-btn", "text": "Styles", "data": {"data-tab": "styles"}}
+{"tag": "button", "id": null, "class": "tab-btn", "text": "Animate", "data": {"data-tab": "animate"}}
+{"tag": "div", "id": "createTab", "class": "tab-content active", "text": "Multi Layers Single Layer Pre-comp Preview Font · Aa Default (Arial / auto-detec", "data": {}}
+{"tag": "div", "id": "stylesTab", "class": "tab-content", "text": "Styles apply only to Multi Layers mode Loading styles from server... Reset Style", "data": {}}
+{"tag": "div", "id": "animateTab", "class": "tab-content", "text": "", "data": {}}
+
+JS hits: {"getFileInfo": 0, "exportSelectedAudio": 0, "getAllFonts": 0, "evalScript": 9, "CSInterface": 0, "localStorage": 34, "ffmpeg": 0, "Whisper": 0, "subtitle": 14, "caption": 0, "animate": 33, "error": 1275, "preview": 8, "font": 120, "timeline": 0, "sentences": 3, "words": 41, "wordpairs": 2}
